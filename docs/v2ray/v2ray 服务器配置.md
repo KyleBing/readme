@@ -6,7 +6,7 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
 ```
 
 或者直接使用文件内容
--> [v2ray.sh](./v2ray.sh) <-
+> [v2ray.sh](./v2ray.sh) <-
 
 
 此脚本会自动安装以下文件：

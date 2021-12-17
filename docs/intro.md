@@ -2,34 +2,38 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Docusaurus 使用说明
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## 一、/docs
 
-## Getting Started
+### 1. 根据目录结构生成边栏目录
+如果 `@/sidebars.js` 里设置了目录自动获取，也就是没有改过的样子
 
-Get started by **creating a new site**.
+此时就会自动读取 `docs` 中的文件，生成目录
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+```bash
+docs/v2ray/v2ray.md
+```` 
+文件的目录就是
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
+```bash
+docs/v2ray/v2ray
 ```
 
-## Start your site
+> **注意** 这里的目录不能使用 `i-love-you` 这样的命名方式，只能使用 js 变量的命名方式，所以使用 `iLoveYou` 这样的命名方式就可以了。
 
-Run the development server:
+### 2. 另一种边栏目录生成方式
+当然，还可以在 `/docs/adc` 目录下建一个名为 `_category_.json` 的文件，内容如下，就会生成侧边栏
 
-```shell
-cd my-website
-
-npx docusaurus start
+```json
+{
+  "label": "五笔助手",
+  "position": 2
+}
 ```
 
-Your site starts at `http://localhost:3000`.
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## 二、/pages
+
+这个目录下，新建一个 `demo.js` 的文件，获得的路径就是 `/demo`
+`demo.md` 也是一样 `/demo`
