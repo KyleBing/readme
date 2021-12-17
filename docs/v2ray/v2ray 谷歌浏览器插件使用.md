@@ -1,4 +1,4 @@
-# v2ray 谷歌浏览器插件使用
+# v2ray Chrome 插件使用
 
 ## 一、下载 ProxyOmega 插件
 

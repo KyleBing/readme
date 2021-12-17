@@ -68,11 +68,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "b.kylebing.cn",
-            "port": 8888,
+            "address": "yourv2ray.address.com",
+            "port": 12345,
             "users": [
               {
-                "id": "12345678-1234-1234-1234-123456789012",
+                "id": "12345678-1234-1234-1234-123456781234",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"

@@ -5,5 +5,5 @@
 > [https://github.com/2dust/v2rayN](https://github.com/2dust/v2rayN)
 
 ## 二、配置
-安装之后，选择新建 mvess 代理，输入 v2ray 的服务器地址、端口号、id 即可
+安装之后，选择新建 `vmess` 代理，输入 v2ray 的 `服务器地址`、`端口号`、`id` 即可
 
