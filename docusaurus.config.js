@@ -6,7 +6,6 @@ module.exports = {
   title: "KyleBing's 文库",
   tagline: 'kylebing@163.com',
   url: 'https://kylebing.cn',
-  // baseUrl: '/readme/dist/',
   baseUrl: '/readme/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,14 +14,14 @@ module.exports = {
   projectName: 'readme', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'KyleBing\'s README',
+      title: 'KyleBing\'s 文档',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {type: 'doc', docId: 'intro', position: 'left', label: '文档',},
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/about', label: 'About', position: 'right'},
         {
           label: 'Home',
