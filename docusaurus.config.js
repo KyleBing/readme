@@ -6,12 +6,12 @@ module.exports = {
   title: "KyleBing's 文库",
   tagline: 'kylebing@163.com',
   url: 'https://kylebing.cn',
-  baseUrl: '/readme/build/',
+  baseUrl: './',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'KyleBing', // Usually your GitHub org/user name.
+  projectName: 'readme', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'KyleBing\'s 文库',
