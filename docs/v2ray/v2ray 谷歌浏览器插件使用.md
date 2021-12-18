@@ -14,20 +14,20 @@
 ### 1. 打开配置
 右击插件图标，在弹出的菜单中选择 <kbd>Option</kbd>
 
-[comment]: <> (![omega_options]&#40;./img/omega_options.png&#41;)
+[comment]: <123> (![omega_options]&#40;./img/omega_options.png&#41;)
 
 ### 2.新建一个场景
 点击左侧按钮 <kbd>New profile</kbd>
 
-[comment]: <> (![new_profile]&#40;./img/new_profile.png&#41;)
+[comment]: <123> (![new_profile]&#40;./img/new_profile.png&#41;)
 输入场景名
 
-[comment]: <> (![new_name]&#40;./img/new_name.png&#41;)
+[comment]: <123> (![new_name]&#40;./img/new_name.png&#41;)
 
 ### 3. 配置场景
 根据图中所示设置这个场景，然后点击保存
 
-[comment]: <> (![new_name]&#40;./img/new_options.png&#41;)
+[comment]: <123> (![new_name]&#40;./img/new_options.png&#41;)
 
 
 ## 四、设置根据规则自动切换

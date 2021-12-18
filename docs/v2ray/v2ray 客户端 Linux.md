@@ -17,6 +17,7 @@
 以下是我 `Windows` 上的 `V2ray` 导出的配置，直接在 Linux 上加载即可。
 
 > 在没有指定 `-config` 选项的时候，程序会默认去找同目录中的 `config.json` 文件
+
 ```json
 {
   "log": {
