@@ -34,39 +34,51 @@ root      2354  0.0  0.4 112656  2116 pts/0    R+   12:18   0:00 grep --color=au
 
 ## 二、配置文件内容
 
-
-```js
+```json
 {
-  "inbounds": [{
-    "port": 12345,
-    "protocol": "vmess",
-    "settings": {
-      "clients": [
-        {
-        "id": "12345678-1234-1234-1234-123456781234",
-          "level": 0,
-          "alterId": 0
-        },{
-          "id": "12345678-1234-1234-1234-123456781234",
-          "level": 0,
-          "alterId": 0
-        }
-      ]
+  "inbounds": [
+    {
+      "port": 12345,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "12345678-1234-1234-1234-123456789012",
+            "level": 0,
+            "alterId": 0
+          },
+          {
+            "id": "11111111-2222-3333-4444-555555555555",
+            "level": 0,
+            "alterId": 0
+          },
+          {
+            "id": "12341234-1234-1234-1234-123412341234",
+            "level": 0,
+            "alterId": 0
+          }
+        ]
+      }
     }
-  }],
-  "outbounds": [{
-    "protocol": "freedom",
-    "settings": {}
-  },{
-    "protocol": "blackhole",
-    "settings": {},
-    "tag": "blocked"
-  }],
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }
+  ],
   "routing": {
     "rules": [
       {
         "type": "field",
-        "ip": ["geoip:private"],
+        "ip": [
+          "geoip:private"
+        ],
         "outboundTag": "blocked"
       }
     ]
