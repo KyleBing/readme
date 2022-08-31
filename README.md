@@ -1,4 +1,3 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
-
+build 之后的文件在 `./build` 目录下
