@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "KyleBing's README",
+  title: "我的文档",
   description: "HA!",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/readme',
@@ -25,6 +25,9 @@ export default defineConfig({
           { text: '共享日记', link: '/diary/共享日记' },
           { text: '项目截图', link: '/diary/项目截图' },
           { text: '部署说明', link: '/diary/部署说明' },
+          { text: '不明显的一些功能', link: '/diary/不明显的一些功能' },
+          { text: '日记显示', link: '/diary/日记显示' },
+          { text: '待办列表', link: '/diary/待办列表' },
         ]
       },
       {

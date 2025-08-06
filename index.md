@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "KyleBing's README"
-  text: "Ha!"
-  tagline: My great project tagline
+  name: "我的共享文档"
+  text: "哈!"
+#  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 标题日记
+      link: /diary/项目介绍
+#    - theme: alt
+#      text: API Examples
+#      link: /api-examples
 
 #features:
 #  - title: Feature A
