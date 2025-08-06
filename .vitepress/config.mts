@@ -6,7 +6,7 @@ export default defineConfig({
   description: "HA!",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/readme',
-  outDir: 'dist',
+  outDir: 'docs',
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
