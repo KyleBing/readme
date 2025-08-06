@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as i,ag as o}from"./chunks/framework.BjE8olX4.js";const b=JSON.parse('{"title":"标题日记","description":"","frontmatter":{},"headers":[],"relativePath":"diary/项目介绍.md","filePath":"diary/项目介绍.md"}'),r={name:"diary/项目介绍.md"};function l(d,e,c,n,h,s){return i(),t("div",null,e[0]||(e[0]=[o("",24)]))}const p=a(r,[["render",l]]);export{b as __pageData,p as default};

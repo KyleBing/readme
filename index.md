@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 标题日记
       link: /diary/项目介绍
-#    - theme: alt
-#      text: API Examples
-#      link: /api-examples
+    - theme: alt
+      text: V2ray
+      link: /v2ray/v2ray 客户端 Linux
 
 #features:
 #  - title: Feature A

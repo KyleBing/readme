@@ -1,0 +1,12 @@
+import{_ as s,c as n,o as l,ag as i}from"./chunks/framework.BjE8olX4.js";const e="/readme/assets/bank_card_list.CfzC4AQq.png",g=JSON.parse('{"title":"银行卡列表","description":"","frontmatter":{},"headers":[],"relativePath":"diary/银行卡列表.md","filePath":"diary/银行卡列表.md"}'),p={name:"diary/银行卡列表.md"};function t(r,a,o,c,d,_){return l(),n("div",null,a[0]||(a[0]=[i(`<h1 id="银行卡列表" tabindex="-1">银行卡列表 <a class="header-anchor" href="#银行卡列表" aria-label="Permalink to &quot;银行卡列表&quot;">​</a></h1><p>平时经常会有需要复制银行卡号的时候，又不想去翻自己的银行卡片，为了方便查看自己的银行卡信息，就添加了这样一个展示银行卡的功能。</p><h2 id="_1-规则" tabindex="-1">1. 规则 <a class="header-anchor" href="#_1-规则" aria-label="Permalink to &quot;1. 规则&quot;">​</a></h2><p>新建一个标题名为 <code>我的银行卡列表</code> 的日记，内容格式为</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>银行：中国银行</span></span>
+<span class="line"><span>卡号：6217 0000 0000 0000 000</span></span>
+<span class="line"><span>类别：储蓄卡</span></span>
+<span class="line"><span>开户行：中国银行济南经二路支行</span></span>
+<span class="line"><span>发卡日期：2019年05月</span></span>
+<span class="line"><span>社会保障卡号：1234567890</span></span>
+<span class="line"><span>有效期限：10年</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>银行：工商银行</span></span>
+<span class="line"><span>卡号：6212 2616 0000 0000 000</span></span>
+<span class="line"><span>类别：信用卡</span></span>
+<span class="line"><span>开户行：山东济南 齐鲁软件园支行</span></span></code></pre></div><p><strong>重要规则：</strong></p><ul><li>单个卡片信息之间不要留有空行。</li><li>每个卡片之间至少需要使用一个空行分隔。</li><li>卡号之间可以有空格，在最终复制卡号的时候空格会自动去除。</li><li>类别可行项只有两种 <strong>储蓄卡</strong>、<strong>信用卡</strong>。</li><li>除 <strong>银行</strong>、<strong>卡号</strong>、<strong>类别</strong> 需要必填之外，其它内容随意。</li><li>目前有LOGO的银行有 <ul><li>中信银行</li><li>农业银行</li><li>工商银行</li><li>中国银行</li><li>建设银行</li><li>招商银行</li><li>民生银行</li><li>浦发银行</li><li>广发银行</li><li>北京银行</li><li>交通银行</li></ul></li></ul><h2 id="_2-展示" tabindex="-1">2. 展示 <a class="header-anchor" href="#_2-展示" aria-label="Permalink to &quot;2. 展示&quot;">​</a></h2><p>银行卡列表页面，点击右上角的编辑图标，可以直接编辑这个带银行卡内容的日记。</p><p><img src="`+e+'" alt="bank_card_list"></p><h2 id="_3-复制卡号" tabindex="-1">3. 复制卡号 <a class="header-anchor" href="#_3-复制卡号" aria-label="Permalink to &quot;3. 复制卡号&quot;">​</a></h2><p>点击卡片上的卡号，可直接复制卡号到剪贴板。</p>',12)]))}const u=s(p,[["render",t]]);export{g as __pageData,u as default};
