@@ -15,7 +15,6 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '日记', link: '/diary/项目介绍' },
-      { text: 'V2ray', link: '/v2ray/v2ray 客户端 Linux' }
     ],
 
     sidebar: [
@@ -37,17 +36,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '2. v2ray',
-        items: [
-          { text: 'v2ray 客户端 Linux', link: '/v2ray/v2ray 客户端 Linux' },
-          { text: 'v2ray 客户端 macOS', link: '/v2ray/v2ray 客户端 macOS' },
-          { text: 'v2ray 客户端 Windows', link: '/v2ray/v2ray 客户端 Windows' },
-          { text: 'v2ray 服务器配置', link: '/v2ray/v2ray 服务器配置' },
-          { text: 'v2ray 谷歌浏览器插件使用', link: '/v2ray/v2ray 谷歌浏览器插件使用' },
-        ]
-      },
-      {
-        text: '3. 五笔码表助手',
+        text: '2. 五笔码表助手',
         items: [
           { text: '五笔码表助手', link: '/wubiDictEditor/五笔码表助手使用说明' },
           { text: '码表处理工具', link: '/wubiDictEditor/tool' },
@@ -65,12 +54,12 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
-    
+
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: 'Copyright © 2024 我的文档'
+      copyright: 'Copyright © 2026 我的文档'
     },
-    
+
     search: {
       provider: 'local',
       options: {
