@@ -25,11 +25,13 @@ export default defineConfig({
           { text: '账单使用', link: '/diary/账单使用' },
           { text: '共享日记', link: '/diary/共享日记' },
 
-          { text: '不明显的一些功能', link: '/diary/不明显的一些功能' },
           { text: '日记显示', link: '/diary/日记显示' },
           { text: '待办列表', link: '/diary/待办列表' },
+          { text: '代码类内容', link: '/diary/代码类内容' },
           { text: '银行卡列表', link: '/diary/银行卡列表' },
           { text: '日历翻阅日记', link: '/diary/日历翻阅日记' },
+          { text: '不明显的一些功能', link: '/diary/不明显的一些功能' },
+
 
           { text: '部署说明', link: '/diary/部署说明' },
           { text: '项目截图', link: '/diary/项目截图' },
