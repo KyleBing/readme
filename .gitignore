@@ -2,4 +2,6 @@
 archive
 node_modules
 .vitepress/cache
+.vitepress/dist
+docs
 dist
